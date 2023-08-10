@@ -1,0 +1,17 @@
+.circle {
+    width: 350px;
+    height: 350px;
+    background: white;
+    transition-property: background, border-radius, transform;
+    transition-duration: 1s,  3s;
+    position: relative;
+    left: 30.5rem;
+    top: 8.5rem;
+}
+
+.circle:hover {
+    transition: 3s ease-in-out;
+    background: red;
+    border-radius: 50%;
+    transform: rotateY(180deg);
+}
